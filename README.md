@@ -1,4 +1,6 @@
 # spbu-campus-helper
+Telegram бот для отслеживания свободных мест в общежитиях СПбГУ. Автор проекта: Большакова Ю. Д. (151 группа).
+
 [Презентация проекта](https://docs.google.com/presentation/d/1PqykPoWtQMUStxEYumRljzamU94FKUVrGeJ4StjKZFg/edit?usp=sharing)
 
 # Развертывание на Heroku
