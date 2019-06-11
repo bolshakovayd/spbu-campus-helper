@@ -23,7 +23,7 @@ $ heroku login
 2. [Создаем приложение Heroku](https://devcenter.heroku.com/articles/creating-apps) и подключаем локальный Git репозиторий:
 ```shell
 $ heroku create <HEROKU APP NAME>
-$ heroku git:remote -a
+$ heroku git:remote -a <HEROKU APP NAME>
 ```
 4. Устанавливаем Python Buildpack:
 ```shell
