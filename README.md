@@ -29,9 +29,9 @@ $ heroku buildpacks:set heroku/python
 5. Теперь пора зарешистрировать самого бота:
   Заходим к @BotFather в Telegram, создаем бота.
 6. В файле `config.py` выставляем
-  1) `<TELEGRAM BOT TOKEN>` - токен бота, полученный у @BotFather в Telegram.
-  2) `<HEROKU APP NAME>` - имя Heroku приложения.
-  3) `<SPBU stxxxxxx LOGIN>` и `<SPBU PASSWORD>` - данные для авторизации на сайте [Dormitory Availability](https://campus-free.spbu.ru).
+  * `<TELEGRAM BOT TOKEN>` - токен бота, полученный у @BotFather в Telegram.
+  * `<HEROKU APP NAME>` - имя Heroku приложения.
+  * `<SPBU stxxxxxx LOGIN>` и `<SPBU PASSWORD>` - данные для авторизации на сайте [Dormitory Availability](https://campus-free.spbu.ru).
 7. Заливаем на Heroku посредством Git:
 ```shell
 $ git push heroku master
